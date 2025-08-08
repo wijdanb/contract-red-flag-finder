@@ -1,0 +1,26 @@
+[
+  {
+    "name": "OpenAI",
+    "service": "Large language model provider (US region)",
+    "dataProcessed": "AI inference on contract text",
+    "location": "United States"
+  },
+  {
+    "name": "Azure OpenAI",
+    "service": "Large language model provider (EU region)",
+    "dataProcessed": "AI inference on contract text",
+    "location": "European Union"
+  },
+  {
+    "name": "Vercel",
+    "service": "Hosting and serverless platform",
+    "dataProcessed": "Application hosting and edge functions",
+    "location": "United States"
+  },
+  {
+    "name": "SMTP Provider",
+    "service": "Email delivery (magic link)",
+    "dataProcessed": "User email addresses and login codes",
+    "location": "Varies depending on SMTP host"
+  }
+]
