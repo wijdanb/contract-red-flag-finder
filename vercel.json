@@ -8,13 +8,6 @@
     { "src": "public/**", "use": "@vercel/static" },
     { "src": "legal/**", "use": "@vercel/static" }
   ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1.js" },
-    { "src": "/legal/(.*)", "dest": "/legal/$1" },
-    { "src": "/public/(.*)", "dest": "/public/$1" },
-    { "src": "/", "dest": "/index.html" },
-    { "src": "/(.*)", "dest": "/$1" }
-  ],
   "headers": [
     {
       "source": "/(.*)",
